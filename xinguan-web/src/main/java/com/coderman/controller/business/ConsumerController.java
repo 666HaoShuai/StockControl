@@ -32,7 +32,7 @@ public class ConsumerController {
 
     /**
      * 去向列表
-     *
+     * git 测试
      * @return
      */
     @ApiOperation(value = "去向列表", notes = "去向列表,根据去向名模糊查询")
