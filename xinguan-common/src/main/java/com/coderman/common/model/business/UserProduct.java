@@ -27,4 +27,9 @@ public class UserProduct {
      * 持有产品数量
      */
     private Integer pSum;
+
+    /**
+     * 产品名称
+     */
+    private String pName;
 }

@@ -39,4 +39,13 @@ public class UserProductController {
         ResponseBean responseBean = userProductService.addProduct(pNum);
         return responseBean;
     }
+
+    /**
+     * 查询销量情况
+     */
+    @GetMapping("/querySales")
+    public ResponseBean querySales(String pname){
+        ResponseBean responseBean = userProductService.querySales(pname);
+        return responseBean;
+    }
 }

@@ -4,7 +4,7 @@ spring:
   datasource:
     username: root
     password: root
-    url: jdbc:mysql://127.0.0.1:3306/xinguan?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=CTT
+    url: jdbc:mysql://39.105.32.56:3306/xingguan?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=CTT
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
@@ -33,6 +33,9 @@ mybatis:
   type-aliases-package: com.coderman.common.model
   configuration:
     map-underscore-to-camel-case: true
+logging:
+  level:
+    com.coderman.business.mapper: debug
 fdfs:
   resHost: https://www.zykhome.club/
   storagePort: 80
